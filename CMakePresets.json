@@ -1,5 +1,5 @@
 {
-    "version": 8,
+    "version": 6,
     "configurePresets": [
         {
             "name": "default",
@@ -7,8 +7,8 @@
             "binaryDir": "${sourceDir}/out/build/${presetName}",
             "cacheVariables": {
                 "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
-                "CMAKE_CXX_COMPILER": "clang++-18",
-                "CMAKE_C_COMPILER": "clang-18",
+                "CMAKE_CXX_COMPILER": "clang++",
+                "CMAKE_C_COMPILER": "clang",
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         }
