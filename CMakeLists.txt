@@ -19,5 +19,6 @@ CPMAddPackage(
 list(APPEND CMAKE_MODULE_PATH ${catch2_SOURCE_DIR}/extras)
 
 add_subdirectory(implementation/cpp/add-two-numbers)
+add_subdirectory(implementation/cpp/add-binary)
 
 enable_testing()
